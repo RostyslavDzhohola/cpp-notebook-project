@@ -1,7 +1,10 @@
-# cpp-notebook-project
+##### cpp-notebook-project
+
 This is a project for Ivan on Tech academy assignment. 
 ==========
+
 My name is Rostyslav and this is my first commit to my project. 
+
 How to install and run
 ----
 1. To run this program, download Zip file on your machine. 
