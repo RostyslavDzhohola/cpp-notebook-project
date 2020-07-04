@@ -15,8 +15,8 @@ How to install and run
 
   Program's menu
  ------------
-- **Add new Task**  --> This options allows user to create new task. User given option to add ID number of the task, write task, and add priority level between 1 and 3. 
-- **Open Task list** --> This options desplays all saved tasks. 
-- **Edit the Task** --> This options allows to edit task's note and it's priority level. 
-- **Mark as complete** --> This option asks user which task's ID he wants to mark as complete and delete it from the list. 
-- **Close the Program** --> This option terminates the console windows and ends the program. 
+- **1. Add new Task**  --> This options allows user to create new task. User given option to add ID number of the task, write task, and add priority level between 1 and 3. 
+- **2. Open Task list** --> This options desplays all saved tasks. 
+- **3. Edit the Task** --> This options allows to edit task's note and it's priority level. 
+- **4. Mark as complete** --> This option asks user which task's ID he wants to mark as complete and delete it from the list. 
+- **5. Close the Program** --> This option terminates the console windows and ends the program. 
