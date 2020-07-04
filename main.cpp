@@ -15,7 +15,7 @@ int main()
 
     do
     {
-        system("cls");      //command for clearing the console screen each time we get to the menu
+        system("cls");                          //command for clearing the console screen each time we get to the menu
         cout << "\nMain Menu" ;
         cout << "\n\n 1. Add new Task" ;
         cout << "\n 2. Open Task list";
@@ -27,11 +27,11 @@ int main()
         system("cls");
         switch(choice)
         {
-        case '1':               // create new task and write it to a file
+        case '1':                               // create new task and write it to a file
             writeData();
             break;
         case '2':
-            displayData();      // This function shows the list of tasks
+            displayData();                      // This function shows the list of tasks
             break;
         case '3':
             displayData();

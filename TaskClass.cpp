@@ -17,9 +17,21 @@ void TaskClass::addTask()
     cout << "Enter the Task Note: ";
     cin.ignore();
 	cin.get(m_taskNote,50);
-    cout << "Enter Priority level from 1 to 3: ";
-    cin.ignore();
-    cin >> m_priorityLevel;
+    m_priorityLevel = priorityLevelCheck();
+}
+
+int TaskClass::priorityLevelCheck()
+{
+    int level{};
+    cout <<"Enter Priority level from 1 to 3: ";
+    cin>> level;
+    while(level<1 || level>3)
+    {
+        system("cls");
+        cout<<"Enter correct priority level: ";
+        cin >> level;
+    };
+    return level;
 }
 
 void TaskClass::editTask()
@@ -27,8 +39,7 @@ void TaskClass::editTask()
     cout << "Enter the Task Note: ";
     cin.ignore();
 	cin.get(m_taskNote,50);
-    cout << "Enter Priority level from 1 to 3: ";
-    cin >> m_priorityLevel;
+    m_priorityLevel = priorityLevelCheck();
 }
 
 void TaskClass::displayTask()
@@ -40,5 +51,6 @@ void TaskClass::displayTask()
 
 void TaskClass::readListOfTasks()
 {
-    cout<<m_taskId<<setw(15)<<" (PL:"<<m_priorityLevel<<")"<<setw(20)<<" "<<m_taskNote<<endl;
+    cout<<m_taskId<<setw(15)<<" (PL:"<<m_priorityLevel<<")"<<setw(12)<<" "<<m_taskNote<<endl;
 }
+
