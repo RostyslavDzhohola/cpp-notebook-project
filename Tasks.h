@@ -14,6 +14,8 @@ public:
     void readListOfTasks();
     void completeTask();
     int return_taskId();            // Removing task from the list of uncompleted tasks
+    int priorityLevelCheck(); //Checking if pritority level is the right number
+
 
     TaskClass() = default;
 };

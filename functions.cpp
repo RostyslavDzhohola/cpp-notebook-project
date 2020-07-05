@@ -28,9 +28,9 @@ void displayData()
         return;
     }
     cout<<"\n\n\t LIST OF TASKS \n\n";
-    cout<<"\n____________________________________________\n";
+    cout<<"\n_____________________________________________________________\n";
     cout<<"ID \tPriority Level \t\tNote ";
-    cout<<"\n____________________________________________\n";
+    cout<<"\n_____________________________________________________________\n";
     while(tasksFile.read(reinterpret_cast<char *> (&Task), sizeof(TaskClass)))
     {
         Task.readListOfTasks();

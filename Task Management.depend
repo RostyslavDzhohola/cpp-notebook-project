@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1593300006 source:c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\main.cpp
+1593906406 source:c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\main.cpp
 	<iostream>
 	<fstream>
 	<iomanip>
@@ -9,7 +9,7 @@
 
 1593298850 c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\functions.h
 
-1593299312 source:c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\functions.cpp
+1593906740 source:c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\functions.cpp
 	<iostream>
 	<fstream>
 	<iomanip>
@@ -17,9 +17,9 @@
 	"functions.h"
 	"Tasks.h"
 
-1593299285 c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\tasks.h
+1593905322 c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\tasks.h
 
-1593300006 source:c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\taskclass.cpp
+1593906406 source:c:\users\rostyslav\the folder\studying materials\ivan on tech\c++\codeblock projects\task management\taskclass.cpp
 	<iomanip>
 	<iostream>
 	"Tasks.h"
